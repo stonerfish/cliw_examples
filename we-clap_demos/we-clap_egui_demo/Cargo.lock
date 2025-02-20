@@ -614,7 +614,7 @@ dependencies = [
 [[package]]
 name = "clap"
 version = "4.5.29"
-source = "git+https://github.com/stonerfish/clap?branch=we-clap#c633c32f82d6ceb89d5032d39460ede19cba6ade"
+source = "git+https://github.com/stonerfish/clap?branch=we-clap#cd0e7f6f2e5acdb80558a1bff1d6e59c330596de"
 dependencies = [
  "clap_builder",
  "clap_derive",
@@ -623,7 +623,7 @@ dependencies = [
 [[package]]
 name = "clap_builder"
 version = "4.5.29"
-source = "git+https://github.com/stonerfish/clap?branch=we-clap#c633c32f82d6ceb89d5032d39460ede19cba6ade"
+source = "git+https://github.com/stonerfish/clap?branch=we-clap#cd0e7f6f2e5acdb80558a1bff1d6e59c330596de"
 dependencies = [
  "anstream",
  "anstyle",
@@ -635,7 +635,7 @@ dependencies = [
 [[package]]
 name = "clap_derive"
 version = "4.5.28"
-source = "git+https://github.com/stonerfish/clap?branch=we-clap#c633c32f82d6ceb89d5032d39460ede19cba6ade"
+source = "git+https://github.com/stonerfish/clap?branch=we-clap#cd0e7f6f2e5acdb80558a1bff1d6e59c330596de"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -646,7 +646,7 @@ dependencies = [
 [[package]]
 name = "clap_lex"
 version = "0.7.4"
-source = "git+https://github.com/stonerfish/clap?branch=we-clap#c633c32f82d6ceb89d5032d39460ede19cba6ade"
+source = "git+https://github.com/stonerfish/clap?branch=we-clap#cd0e7f6f2e5acdb80558a1bff1d6e59c330596de"
 dependencies = [
  "cliw",
 ]
@@ -662,9 +662,9 @@ dependencies = [
 
 [[package]]
 name = "cliw"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "764e264108e44f894a39c09a8fb1393f8596fec9f0cff039adab1bcd46a40f08"
+checksum = "147eea70fc3f16ab8c2d63db7fee09b4399bd74da4e648d6c7933a9d0aabe54f"
 dependencies = [
  "js-sys",
  "percent-encoding",
@@ -2321,18 +2321,18 @@ checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
 
 [[package]]
 name = "serde"
-version = "1.0.217"
+version = "1.0.218"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02fc4265df13d6fa1d00ecff087228cc0a2b5f3c0e87e258d8b94a156e984c70"
+checksum = "e8dfc9d19bdbf6d17e22319da49161d5d0108e4188e8b680aef6299eed22df60"
 dependencies = [
  "serde_derive",
 ]
 
 [[package]]
 name = "serde_derive"
-version = "1.0.217"
+version = "1.0.218"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a9bf7cf98d04a2b28aead066b7496853d4779c9cc183c440dbac457641e19a0"
+checksum = "f09503e191f4e797cb8aac08e9a4a4695c5edf6a2e70e376d961ddd5c969f82b"
 dependencies = [
  "proc-macro2",
  "quote",

@@ -106,9 +106,9 @@ dependencies = [
 
 [[package]]
 name = "cliw"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "764e264108e44f894a39c09a8fb1393f8596fec9f0cff039adab1bcd46a40f08"
+checksum = "147eea70fc3f16ab8c2d63db7fee09b4399bd74da4e648d6c7933a9d0aabe54f"
 dependencies = [
  "js-sys",
  "percent-encoding",

@@ -12,6 +12,6 @@ clap = { git = "https://github.com/stonerfish/clap", branch = "we-clap",  featur
 
 # We will depend on cliw here just for the example program output of the args.
 # Your program doesn't need to depend on cliw for we-clap to work 
-cliw = { version = "0.1.0" , features = [
+cliw = { version = "0.1.1" , features = [
     "alert",
 ]}
