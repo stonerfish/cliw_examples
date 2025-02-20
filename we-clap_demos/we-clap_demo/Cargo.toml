@@ -1,0 +1,17 @@
+[package]
+name = "we-clap_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { git = "https://github.com/stonerfish/clap", branch = "we-clap",  features = [
+    "derive",               #normal clap derive feature
+    "unstable-web-alert",   #enable clap to use an alert for its output on the web
+    "unstable-web-urlargs"  #enable clap to use urlargs on the web 
+]}
+
+# We will depend on cliw here just for the example program output of the args.
+# Your program doesn't need to depend on cliw for we-clap to work 
+cliw = { version = "0.1.0" , features = [
+    "alert",
+]}
